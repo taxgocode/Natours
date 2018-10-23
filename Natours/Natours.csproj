@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="UI\testfile" />
+    <Content Include="img\video.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,6 +76,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\hero-small.jpg" />
+    <Content Include="img\hero.jpg" />
+    <Content Include="img\logo-green-1x.png" />
+    <Content Include="img\logo-green-2x.png" />
+    <Content Include="img\logo-green-small-1x.png" />
+    <Content Include="img\logo-green-small-2x.png" />
+    <Content Include="img\logo-white.png" />
+    <Content Include="img\nat-1-large.jpg" />
+    <Content Include="img\nat-1.jpg" />
+    <Content Include="img\nat-10.jpg" />
+    <Content Include="img\nat-2-large.jpg" />
+    <Content Include="img\nat-2.jpg" />
+    <Content Include="img\nat-3-large.jpg" />
+    <Content Include="img\nat-3.jpg" />
+    <Content Include="img\nat-4.jpg" />
+    <Content Include="img\nat-5.jpg" />
+    <Content Include="img\nat-6.jpg" />
+    <Content Include="img\nat-7.jpg" />
+    <Content Include="img\nat-8.jpg" />
+    <Content Include="img\nat-9.jpg" />
+    <Content Include="img\video.mp4" />
+    <Content Include="index.html" />
+    <Content Include="UI\Home.html" />
+    <Content Include="UI\testfile 2 for bluebranch.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
