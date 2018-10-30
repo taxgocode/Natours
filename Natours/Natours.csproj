@@ -101,6 +101,8 @@
     <Content Include="img\nat-9.jpg" />
     <Content Include="img\video.mp4" />
     <Content Include="index.html" />
+    <Content Include="PrintJSShr.aspx" />
+    <Content Include="script\printjs-sz\print.min.js" />
     <Content Include="script\shr\jquery-min.js" />
     <Content Include="script\shr\jQuery-print.js" />
     <Content Include="UI\Home.html" />
@@ -115,8 +117,16 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PrintJSShr.aspx.cs">
+      <DependentUpon>PrintJSShr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintJSShr.aspx.designer.cs">
+      <DependentUpon>PrintJSShr.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
