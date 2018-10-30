@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
+    <Content Include="Home.aspx" />
     <Content Include="img\favicon.png" />
     <Content Include="img\hero-small.jpg" />
     <Content Include="img\hero.jpg" />
@@ -100,11 +101,20 @@
     <Content Include="img\nat-9.jpg" />
     <Content Include="img\video.mp4" />
     <Content Include="index.html" />
+    <Content Include="script\shr\jquery-min.js" />
+    <Content Include="script\shr\jQuery-print.js" />
     <Content Include="UI\Home.html" />
     <Content Include="UI\testfile 2 for bluebranch.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
